@@ -1,5 +1,4 @@
 |?TREE=&raquo; <a class=tree href="/CMD_SHOW_DOMAIN?domain=`domain`">`domain`</a>|
-|?HELP_SECTION=`USER_HELPER`|
 |HTM_CONFIG|
 |HTM_USER_TOP|
 |LF_POP|
@@ -17,11 +16,10 @@
 <div style="float:left;width:400px;margin-right: 40px;">
     <fieldset class="buttons-box"><legend>|LANG_MENU_ACCOUNT|</legend>
       <a href="/CMD_USER_STATS?domain=|domain|"><img src="/IMG_IC_STATS"><br>|LANG_SITE_SUM_STATS_LOGS|</a>
-      <a href="/CMD_FILE_MANAGER?domain=|domain|"><img src="/IMG_IC_FILEMAN"><br>|LANG_FILE_MANAGER|</a>
+      <a href="/CMD_FILE_MANAGER?domain=|domain|"><img src="/IMG_IC_FILEMAN"><br>مدیریت فایل ها</a>
       <a href="|WEBAPPS_SSL|://|HOSTNAME|/phpMyAdmin" target="_blank"><img src="/IMG_IC_PHPMYADMIN"><br>|LANG_PHPMYADMIN|</a>
       <a href="HTM_PASSWD?domain=|domain|"><img src="/IMG_IC_PASSWD"><br>|LANG_CHANGE_PASSWORD|</a>
       <a href="/CMD_LOGIN_HISTORY?domain=|domain|"><img src="/IMG_IC_LOGHIST"><br>|LANG_LOGIN_HISTORY|</a>
-      <a href="/CMD_TICKET?domain=|domain|"><img src="/IMG_IC_SUPPORT"><br>|LANG_SUPPORT_CENTER|</a>
 |*if USERSYSINFO="ON"|
       <a href="/CMD_SYSTEM_INFO?domain=|domain|"><img src="/IMG_IC_SERVINFO"><br>|LANG_SERVER_INFO|</a>
 |*endif|
@@ -48,9 +46,6 @@
       <a href="/CMD_DOMAIN_POINTER?domain=|domain|"><img src="/IMG_IC_DOMPTR"><br>|LANG_DOMAIN_POINTERS|</a>
 |*endif|
       <a href="/CMD_REDIRECT?domain=|domain|"><img src="/IMG_IC_SITEREDIRECT"><br>|LANG_SITE_REDIRECTION|</a>
-|*if ALLOWED_CMD_DOMAIN!="no"|
-      <a href="/CMD_ADDITIONAL_DOMAINS?domain=|domain|"><img src="/IMG_IC_DOMAIN_SETUP"><br>|LANG_DOMAIN_SETUP|</a>
-|*endif|
 |*if USERDNSCONTROL="ON"|
       <a href="/CMD_DNS_CONTROL?domain=|domain|"><img src="/IMG_IC_DNS"><br>|LANG_DNS_MANAGEMENT|</a>
 |*endif|
