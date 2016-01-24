@@ -6,6 +6,10 @@ rm -rf fix.sh
 curl https://raw.githubusercontent.com/alisalehiman/capri/master/files_user.conf > /usr/local/directadmin/data/skins/capri/files_user.conf
 curl https://raw.githubusercontent.com/alisalehiman/capri/master/lang/en/user/show_domain.html > /usr/local/directadmin/data/skins/capri/lang/en/user/show_domain.html
 wget -O /usr/local/directadmin/data/skins/capri/images/ic/ic_phpselector.png https://raw.githubusercontent.com/alisalehiman/capri/master/images/ic/ic_phpselector.png
+wget -O /usr/local/directadmin/data/skins/capri/images/ic/nrp8.png https://raw.githubusercontent.com/alisalehiman/capri/master/images/ic/nrp8.png
+wget -O /usr/local/directadmin/data/skins/capri/images/ic/nrp14.png https://raw.githubusercontent.com/alisalehiman/capri/master/images/ic/nrp14.png
+wget -O /usr/local/directadmin/data/skins/capri/images/ic/nrp15.png https://raw.githubusercontent.com/alisalehiman/capri/master/images/ic/nrp15.png
+
 curl https://raw.githubusercontent.com/alisalehiman/capri/master/user/show_domain.html > /usr/local/directadmin/data/skins/capri/user/show_domain.html
 curl https://raw.githubusercontent.com/alisalehiman/capri/master/header.html > /usr/local/directadmin/data/skins/capri/header.html
 
